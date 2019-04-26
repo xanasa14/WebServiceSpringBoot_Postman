@@ -11,6 +11,7 @@ public class Controller {
 	@RequestMapping(value="/", method = RequestMethod.GET)
 	public String helloWorld(@RequestParam(value = "name", defaultValue = "world" )String name) {
 		return "Hello "+ name;
+		//ok
 	}
 	
 	@RequestMapping(value ="/", method = RequestMethod.POST)
